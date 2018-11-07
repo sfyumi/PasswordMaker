@@ -2,7 +2,7 @@
     <a href="#" target="_blank">PasswordMaker</a>
 </h1>
 
-> 中文版随机密码生成器。此页面是根据英文版翻译而成。
+> 中文版随机密码生成器。此页面是根据 meta1203 的英文版翻译而成。
 
 🇨🇳简体中文 | 🇺🇸[English](./README-en-US.md)
 

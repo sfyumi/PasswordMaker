@@ -2,7 +2,7 @@
 <head>
 <script type="text/javascript" src="sha256.js"></script>
 <script type="text/javascript" src="password.js"></script>
-<title>Password Maker</title>
+<title>随机密码生成器</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <style>
 #output {
@@ -14,34 +14,40 @@ font-size: 5vw;
 body {
 font-family: sans-serif;
 }
+h1 {
+color: #ff4522;
+}
 </style>
 </head>
 <body>
+<h1>本站不会存储任何信息, 请妥善保存生成的密码</h1>
 <div>
 <form id="pGen" action="javascript:domEdit()">
 <table>
 <tr>
-<td><p class="stext">Key: </p></td>
-<td><input class="stext" name="keyvalue" type="password" placeholder="pass123" maxlength="32" id="key"/></td>
+<td><p class="stext">提示: </p></td>
+<td><input class="stext" name="keyvalue" type="text" placeholder="密码123" maxlength="32" id="key"/></td>
 </tr>
 <tr>
-<td><p class="stext">Website: </p></td>
-<td><input class="stext mono" name="sitevalue" placeholder="facebook.com" type="text" maxlength="128" id="site"/></td>
+<td><p class="stext">网站: </p></td>
+<td><input class="stext mono" name="sitevalue" placeholder="agentd.cn" type="text" maxlength="128" id="site"/></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td><input class="stext" type="submit" value="Generate" /></td>
+<td><input class="stext" type="submit" value="生成密码" /></td>
 </tr>
 
 </form>
 <tr>
-<td><p class="stext">Password: &nbsp;</p></td>
+<td><p class="stext">密码: &nbsp;</p></td>
 <td><input class="stext" readonly name="outvalue" type="text" maxlength="16" id="output"/></tr>
 </tr>
 </table>
 </div>
 <br />
 <br />
+
+<p><a href="https://github.com/sfyumi/PasswordMaker/" target="_blank">中文版 Github 源码</a></p>
 <p><a href="https://github.com/meta1203/PasswordMaker/" target="_blank">Source on GitHub</a></p>
 </body>
 </html>
